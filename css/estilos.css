@@ -7,3 +7,10 @@ body{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#container{
+    padding: 1em;
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid aqua;
+}
