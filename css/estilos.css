@@ -1,5 +1,9 @@
 body{
     color: blue;
     text-align: center;
-
+}
+#PrimeraFrase{
+    text-align: justify;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
 }
