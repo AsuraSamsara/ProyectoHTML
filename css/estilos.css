@@ -1,29 +1,28 @@
-body{
-    color: blue;
-    text-align: center;
+body {
+  color: blue;
+  text-align: center;
 }
-#PrimeraFrase{
-    text-align: justify;
-    color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#cabecera{
-    padding: 1em;
-    margin: 0 auto;
-    width: 70%;
-    border: 1px solid aqua;
-    background-color:darkred;
-    text-align: left;
-    margin-left: 0% 0%;
-    padding: 0% 0px;
-    color: white;
-    font-size: 40px;
+#PrimeraFrase {
+  text-align: center;
+  color: aqua;
+  font-family: "Courier New", Courier, monospace;
 }
 
-#cabecera span{
-    margin: 10% 10%;
-    font-size: 20px;
-    font-style: italic;
+#cabecera {
+  color: black;
+  padding: 30px;
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid aqua;
+  background-color: indigo;
+  text-align: left;
+  margin-left: 0% 0%;
+  font-size: 60px;
 }
 
+#cabecera span {
+  color: dodgerblue;
+  margin: 10% 10%;
+  font-size: 20px;
+  font-style: italic;
+}
