@@ -7,6 +7,11 @@ body {
   color: aqua;
   font-family: "Courier New", Courier, monospace;
 }
+
+#nav{
+  text-align: left;
+}
+
 #header{
   font-size: 1.3rem;
   font-style: oblique;

@@ -5,30 +5,58 @@
     <link rel="stylesheet" href="./css/estilos.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
     <title>Mi Primera Pagina</title>
   </head>
+
   <body>
-    <div id="cabecera">
-      <img src="https://i.imgur.com/cJV9OUZ.jpeg" alt="logo" width="50px">
+    <header id="cabecera">
+      <img src="https://i.imgur.com/cJV9OUZ.jpeg" alt="logo" width="50px" />
       AsuraSamsara.
       <span>Pagina principal</span>
-    </div>
-    <div id="header">
-      Hola Amigos.
-      <p>Aqui inicio</p>
+    </header>
 
-      <p id="PrimeraFrase">Aqui otra frase excelente</p>
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="./index.html">Inicio</a>
+        </li>
+        <ol>
+         <li>
+          Contacto
+         </li>
+         <li>
+          Productos
+         </li>
+        </ol>
+      </ul>
+    </nav>
 
-      <br />
+    <main id="header">
+      <section>
+        <article>
+          <p>Hola Amigos.</p>
+          <p>Aqui inicio</p>
 
-      <p id="descripcion">
-        Esta pagina sera para que la gente vea diferentes tipos de anime desde
-        los mas conocidos hasta algunos que no todos han visto.
-      </p>
+          <p id="PrimeraFrase">Aqui otra frase excelente</p>
 
-      <img src="./images/inicio.jpg" alt="Imagen" height="500px" width="500px" />
-    </div>
+          <br />
 
-    <div id="footer">Aqui estara el footer de mi proyecto.</div>
+          <p id="descripcion">
+            Esta pagina sera para que la gente vea diferentes tipos de anime
+            desde los mas conocidos hasta algunos que no todos han visto.
+          </p>
+
+          <img
+            src="./images/inicio.jpg"
+            alt="Imagen"
+            height="500px"
+            width="500px"
+          />
+        </article>
+      </section>
+    </main>
+
+    <footer id="footer">Aqui estara el footer de mi proyecto.</footer>
   </body>
 </html>
