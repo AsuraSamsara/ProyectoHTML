@@ -11,7 +11,16 @@
 
   <body>
     <header id="cabecera">
-      <img src="https://i.imgur.com/cJV9OUZ.jpeg" alt="logo" width="50px" />
+      <figure>
+        <img 
+          src="https://i.imgur.com/cJV9OUZ.jpeg" 
+          alt="logo" 
+          width="50px" />
+        <!-- <figcaption>
+            Imagen de Logo
+          </figcaption>
+        -->
+      </figure>
       AsuraSamsara.
       <span>Pagina principal</span>
     </header>
@@ -21,14 +30,12 @@
         <li>
           <a href="./index.html">Inicio</a>
         </li>
-        <ol>
-         <li>
-          Contacto
-         </li>
-         <li>
-          Productos
-         </li>
-        </ol>
+          <li>
+            Contacto
+          </li>
+          <li>
+            Productos
+          </li>
       </ul>
     </nav>
 
@@ -47,14 +54,33 @@
             desde los mas conocidos hasta algunos que no todos han visto.
           </p>
 
-          <img
-            src="./images/inicio.jpg"
-            alt="Imagen"
-            height="500px"
-            width="500px"
-          />
+          <figure>
+            <img
+              src="./images/inicio.jpg"
+              alt="Imagen"
+              height="500px"
+              width="500px"
+            />
+            ><figcaption>
+              Imagen de descripcion
+            </figcaption>
+          </figure>
+        </article>
+        <article id="CarruselVideo">
+          /* <video controls preload="auto">
+            <source src="./video/adnVideo.mp4">
+          </video> */
+        </article>
+        <article>
+          <form action="">
+            <label for="Nombre">
+              <span></span>
+              <input type="text" name="" id="Nombre">
+            </label>
+          </form>
         </article>
       </section>
+
     </main>
 
     <footer id="footer">Aqui estara el footer de mi proyecto.</footer>

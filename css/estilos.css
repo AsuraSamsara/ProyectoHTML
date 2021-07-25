@@ -1,15 +1,34 @@
 body {
   color: blue;
   text-align: center;
+  background-color: #4D7298;
 }
 #PrimeraFrase {
   text-align: center;
-  color: aqua;
+  color: #77a6b6;
   font-family: "Courier New", Courier, monospace;
 }
 
 #nav{
-  text-align: left;
+  /* text-align: left;*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;;
+}
+
+#nav ul{
+  display: flex;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+#nav ul li{
+  flex: 1 1 auto;
+  text-align: center;
+  background: #9DC3C2;
+  padding: 0.4rem;
+  border: 1px solid black;
 }
 
 #header{
@@ -24,7 +43,7 @@ body {
   margin: 0 auto;
   width: 70%;
   border: 1px solid aqua;
-  background-color: indigo;
+  background-color: #77a6b6;
   text-align: left;
   margin-left: 0% 0%;
   font-size: 50px;
@@ -37,9 +56,18 @@ body {
   font-style: italic;
 }
 
+#cabecera figure{
+  display: inline;
+}
+
 #footer{
 	color: white;
 	background-color:black;
 	padding:30px;
 	margin:0 auto;
+}
+
+#CarruselVideo video{
+  width: 20rem;
+  /* height: 10rem; */
 }
