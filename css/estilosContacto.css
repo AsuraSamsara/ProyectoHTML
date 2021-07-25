@@ -1,0 +1,54 @@
+body {
+    color: blue;
+    text-align: center;
+    background-color: #4D7298;
+  }
+   
+  #nav{
+    /* text-align: left;*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;;
+  }
+  
+  #nav ul{
+    display: flex;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+  }
+  
+  #nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    background: #9DC3C2;
+    padding: 0.4rem;
+    border: 1px solid black;
+  }
+    
+  #cabecera {
+    color: black;
+    padding: 30px;
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid aqua;
+    background-color: #77a6b6;
+    text-align: left;
+    margin-left: 0% 0%;
+    font-size: 50px;
+  }
+  
+  #cabecera span {
+    color: dodgerblue;
+    margin: 10% 10%;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  #cabecera figure{
+    display: inline;
+  }
+
+#formularioContacto{
+    display: flex;
+}
