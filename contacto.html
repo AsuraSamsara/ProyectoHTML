@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilosContacto.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilosContacto.css" />
     <title>Contacto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="cabecera">
-    <figure>
-      <img 
-        src="https://i.imgur.com/cJV9OUZ.jpeg" 
-        alt="logo" 
-        width="50px" />
-      <!-- <figcaption>
+      <figure>
+        <img src="./images/Logo_A-Movil.png" alt="logo" width="200px" />
+        <!-- <figcaption>
           Imagen de Logo
         </figcaption>
-      -->
-    </figure>
-    AsuraSamsara.
-    <span>Pagina principal</span>
-  </header>
+      --></figure>
+      <span>Ciudad Azteca</span>
+    </header>
 
-  <nav id="nav">
-    <ul>
-      <li>
-        <a href="./index.html">Inicio</a>
-      </li>
+    <nav id="nav">
+      <ul>
         <li>
-          Contacto
+          <a href="./index.html">Inicio</a>
         </li>
         <li>
-          Productos
+          <a href="./contacto.html">Contacto</a>
         </li>
-    </ul>
-  </nav>
+        <li>Productos</li>
+      </ul>
+    </nav>
 
-  <main>
+    <main>
       <section>
-          <article id="formularioContacto">
-              <form action="">
-                <label for="email">
-                    <span>Correo Electronico</span>
-                    <input type="text" name="" id="email required">
-                </label>
+        <article id="formularioContacto">
 
-                <label for="titulo">
-                <span>Titulo del mensaje</span>
-                <input type="text" name="" id="titulo" required>
-                </label>
+          <form action="">
 
-                <label for="mensaje">
-                  <span>Mensaje</span>
-                <input type="text" name=""  id="mensaje" required>
-                </label>
+          <label for="cita">
+            <span>¿Cuando estarias disponible para la respuesta?</span>
+            <input type="datetime-local" id="cita" name="cita" required />
+          </label>
+          
+            <label for="email">
+              <span>Correo Electronico</span>
+              <input type="email" autocomplete="off" id="email" name="email" required />
+            </label>
 
-                <input type="button" value="Enviar" >
-              </form>
-          </article>
+            <label for="titulo">
+              <span>Titulo del mensaje</span>
+              <input type="text" id="titulo" name="titulo" required />
+            </label>
+
+            <label for="mensaje">
+              <span>Mensaje</span>
+              <input type="text" id="mensaje" name="mensaje" required />
+            </label>
+           
+
+            <input type="submit" value="Enviar" />
+          </form>
+        </article>
       </section>
-  </main>
-    
-</body>
+    </main>
+  </body>
 </html>
