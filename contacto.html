@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/estilosContacto.css" />
+    <link rel="stylesheet" href="./css/globalSettings.css" />
     <title>Contacto</title>
   </head>
   <body>
-    <header id="cabecera">
+    <header class="cabecera">
       <figure>
         <img src="./images/Logo_A-Movil.png" alt="logo" width="200px" />
         <!-- <figcaption>
@@ -18,15 +19,17 @@
       <span>Ciudad Azteca</span>
     </header>
 
-    <nav id="nav">
-      <ul>
-        <li>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list__item">
           <a href="./index.html">Inicio</a>
         </li>
-        <li>
+        <li class="nav__list__item">
           <a href="./contacto.html">Contacto</a>
         </li>
-        <li>Productos</li>
+        <li class="nav__list__item">
+          <a href="">Productos</a>
+        </li>
       </ul>
     </nav>
 
@@ -35,27 +38,44 @@
         <article id="formularioContacto">
 
           <form action="">
-
+            <fieldset>
+              <legend>Preguntas</legend>
           <label for="cita">
             <span>¿Cuando estarias disponible para la respuesta?</span>
             <input type="datetime-local" id="cita" name="cita" required />
           </label>
+          <br>
           
             <label for="email">
               <span>Correo Electronico</span>
-              <input type="email" autocomplete="off" id="email" name="email" required />
+              <input type="email" autocomplete="email" id="email" name="email" required />
             </label>
+          </br>
 
             <label for="titulo">
               <span>Titulo del mensaje</span>
               <input type="text" id="titulo" name="titulo" required />
             </label>
+            <br>
 
             <label for="mensaje">
               <span>Mensaje</span>
               <input type="text" id="mensaje" name="mensaje" required />
             </label>
+            <br>
            
+            <select name="opciones">
+              <option value="">Uno</option>
+              <option value="">dos</option>
+            </select>
+
+            <input list="opciones2" name="opciones">
+            <datalist id="opciones2">
+              <option value="Uno"></option>
+              <option value="dos"></option>
+            </datalist>
+            
+
 
             <input type="submit" value="Enviar" />
           </form>
