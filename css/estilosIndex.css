@@ -1,27 +1,28 @@
-#PrimeraFrase {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-}
-
-#header {
+.main-cuerpo {
   font-size: 1.3rem;
   font-style: oblique;
   font-weight: bold;
 }
 
-#carruselTelefonos {
+#PrimeraFrase {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+.carruselTelefonos {
   display: flex;
 }
 
-#carruselTelefonos figure {
+.carruselTelefonos figure {
   flex: auto;
 }
 
-#carruselTelefonos figure img {
+.carruselTelefonos figure img {
   width: 10rem;
 }
 
-#CarruselVideo video {
+.CarruselVideo video {
   width: 20rem;
   /* height: 10rem; */
 }

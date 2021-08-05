@@ -64,9 +64,9 @@ body {
   height: 20rem;
 }
 
-#footer {
+.main-footer {
   color: white;
   background-color: black;
   padding: 30px;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
