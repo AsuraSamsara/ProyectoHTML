@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./css/globalSettings.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/estilosIndex.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +13,12 @@
 
   <body>
     <nav class="nav">
+      <div class="nav__img">
+        <a href="./index.html">
+          <img src="./images/logoAMobil.png" />
+        </a>
+      </div>
+
       <ul class="nav__list">
         <li class="nav__list__item">
           <a href="./index.html">（*＾-＾*） Inicio</a>
@@ -47,6 +54,20 @@
           <br />
         </article>
 
+        <article class="main__search">
+          <span> ¿Buscas un celular en especial? </span>
+          <form class="form__search">
+            <label for="search">
+              <input
+                type="text"
+                id="search"
+                name="search"
+                placeholder="A31, S20, Y9A..."
+              />
+            </label>
+          </form>
+        </article>
+
         <article class="carruselTelefonos">
           <h2>Tienda de telefonos</h2>
           <p>
@@ -58,20 +79,32 @@
           <ul class="carruselTelefonos__navigation">
             <li>
               <figure>
-                <img src="./images/a02.png" alt="Imagen" />
+                <img
+                  class="carruselTelefonos__img"
+                  src="./images/a02.png"
+                  alt="Imagen"
+                />
                 <figcaption>Samsung A02</figcaption>
               </figure>
             </li>
             <li>
               <figure>
-                <img src="./images/e6_Play.jpg" alt="Imagen" />
-                <figcaption>Samsung A02</figcaption>
+                <img
+                  class="carruselTelefonos__img"
+                  src="./images/e6_Play.png"
+                  alt="Imagen"
+                />
+                <figcaption>Motorola E6 Play</figcaption>
               </figure>
             </li>
             <li>
               <figure>
-                <img src="./images/redmi9A.jpg" alt="Imagen" />
-                <figcaption>Samsung A02</figcaption>
+                <img
+                  class="carruselTelefonos__img"
+                  src="./images/redmi9a.jpg"
+                  alt="Imagen"
+                />
+                <figcaption>Redmi 9a</figcaption>
               </figure>
             </li>
           </ul>

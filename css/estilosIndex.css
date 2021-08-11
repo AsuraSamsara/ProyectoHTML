@@ -1,4 +1,3 @@
-
 .main-cuerpo {
   font-size: 1.3rem;
   font-style: oblique;
@@ -10,26 +9,58 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+.main__search {
+  margin: auto auto 2rem auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  font-size: 2rem;
+}
+
+.form__search {
+  width: 100%;
+}
+
+.form__search input {
+  border: 2px solid white;
+  background-color: rgba(64, 64, 102, 0.1);
+  width: 100%;
+  border-radius: 50px;
+  width: 70%;
+  height: 2.5rem;
+  padding: 0 1rem;
+  outline: none;
+}
 
 .carruselTelefonos__navigation {
   display: flex;
   box-sizing: border-box;
+  justify-content: space-between;
+  width:100;
+  overflow:scroll;
+  padding:2rem;
+  position: relative;
 }
 
 .carruselTelefonos__navigation li {
-  flex: auto;
-  display:block;
-  text-decoration: none;
   list-style: none;
 }
 
-.carruselTelefonos__navigation figure img {
+.carruselTelefonos__img {
   width: 10rem;
-  transition: width 1s;
+  opacity: 0.3;
+  /* transition: width 1s; */
 }
 
-.carruselTelefonos__navigation figure img:hover {
-  width: 11rem;
+.carruselTelefonos__img:hover {
+  /* opacity: 1;
+  width: 11rem; */
+  transform:translate3d(5rem,0,0);
+  
+}
+
+.carruselTelefonos__img:hover .carruselTelefonos__img{
+  transform:scale(1.5);
 }
 
 .CarruselVideo video {
