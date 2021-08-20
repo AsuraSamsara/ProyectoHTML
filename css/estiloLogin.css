@@ -1,0 +1,28 @@
+.login__container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 2rem;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    background: rgb(10,12,15,0.3);
+}
+
+.login__container--form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.login__container--form input{
+    outline: none;
+    background: none;
+    border: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.login__container--social img{
+    width: 1rem;
+
+}

@@ -12,85 +12,119 @@
     <nav class="nav">
       <div class="nav__img">
         <a href="./index.html">
-          <img src="./images/logoAMobil.png" />
+          <img src="./images/logoAMobil.png" alt="Logo Pagina A-Movil Cd Azteca"/>
         </a>
       </div>
 
+      <article class="main__search">
+        <span> Buscar </span>
+        <form class="form__search">
+          <label for="search">
+            <input
+              type="text"
+              id="search"
+              name="search"
+              placeholder="A31, S20, Y9A..."
+            />
+          </label>
+        </form>
+      </article>
+
       <ul class="nav__list">
         <li class="nav__list__item">
-          <a href="./index.html">（*＾-＾*） Inicio</a>
+          <a href="./index.html"> Inicio </a>
         </li>
         <li class="nav__list__item">
-          <a href="./contacto.html">o(*≧▽≦)ツ┏━┓ Contacto</a>
+          <a href="./contacto.html"> Contacto </a>
         </li>
         <li class="nav__list__item">
-          <a href="">(☞ﾟヮﾟ)☞ Productos ☜(ﾟヮﾟ☜)</a>
+          <a href=""> Productos </a>
+        </li>
+        <li class="nav__list__item">
+          <a href="./login.html"> Login </a>
         </li>
       </ul>
     </nav>
 
-
     <header class="cabecera">
-      <figure>
-        <img src="./images/logoAMobil.png" alt="logo"/>
-        <!-- <figcaption>
-          Imagen de Logo
-        </figcaption>
-      --></figure>
+      <h1>Bienvenido a A-Mobil.</h1>
+      <section>
+        <article>
+          <p id="PrimeraFrase">
+            Tienda distribuidora de Equipos celulares , planes telefonicos y
+            financiamientos.
+          </p>
+          <br />
+        </article>
+      </section>
     </header>
 
     <main>
       <section>
         <article id="formularioContacto">
-
           <form class="formulario" action="">
             <fieldset>
               <legend>Preguntas</legend>
-          <label for="cita">
-            <span>¿Cuando estarias disponible para la respuesta?</span>
-            <input type="datetime-local" id="cita" name="cita" required />
-          </label>
-          <br>
-          
-            <label for="email">
-              <span>Correo Electronico</span>
-              <input type="email" autocomplete="email" id="email" name="email" required />
-            </label>
-          <br>
+              <label for="cita">
+                <span>¿Cuando estarias disponible para la respuesta?</span>
+                <input type="datetime-local" id="cita" name="cita" required />
+              </label>
+              <br />
 
-            <label for="titulo">
-              <span>Titulo del mensaje</span>
-              <input type="text" id="titulo" name="titulo"  required />
-            </label>
-            <br>
+              <label for="email">
+                <span>Correo Electronico</span>
+                <input
+                  type="email"
+                  autocomplete="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </label>
+              <br />
 
-            <label for="mensaje">
-              <span>Mensaje</span>
-              <input type="text" id="mensaje" name="mensaje" required />
-            </label>
-            <br>
-           
-            <select name="opciones">
-              <option value="">Uno</option>
-              <option value="">dos</option>
-            </select>
+              <label for="titulo">
+                <span>Titulo del mensaje</span>
+                <input type="text" id="titulo" name="titulo" required />
+              </label>
+              <br />
 
-            <input list="opciones2" name="opciones">
-            <datalist id="opciones2">
-              <option value="Uno"></option>
-              <option value="dos"></option>
-            </datalist>
-            
+              <label for="mensaje">
+                <span>Mensaje</span>
+                <input type="text" id="mensaje" name="mensaje" required />
+              </label>
+              <br />
 
+              <select name="opciones">
+                <option value="">Uno</option>
+                <option value="">dos</option>
+              </select>
 
-            <input type="submit" value="Enviar" />
+              <input list="opciones2" name="opciones" />
+              <datalist id="opciones2">
+                <option value="Uno"></option>
+                <option value="dos"></option>
+              </datalist>
+
+              <input type="submit" value="Enviar" />
             </fieldset>
           </form>
         </article>
       </section>
     </main>
+
     <footer class="main-footer">
-      Aqui estara el footer de mi proyecto.
+      <ul class="main-footer__footer-nav">
+        <li class="main-footer__footer-nav__item">
+          <a href="">Contactanos</a>
+        </li>
+        <li class="main-footer__footer-nav__item">
+          <a href="">Politica de provacidad</a>
+        </li>
+        <li class="main-footer__footer-nav__item">
+          <a href="">Terminos y condiciones</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

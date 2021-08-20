@@ -22,6 +22,7 @@ body {
   position: fixed;
   z-index: 10;
   box-sizing: border-box;
+  background: dodgerblue;
 }
 
 .nav__main {
@@ -30,10 +31,9 @@ body {
 
 .nav__list {
   display: flex;
-  flex-flow: column no-wrap;
   align-items: center;
-  margin: 0 1rem auto auto;
   list-style: none;
+  margin-left: auto;
 }
 
 .nav__img img {
@@ -57,10 +57,21 @@ body {
 }
 
 .cabecera {
+  padding:2rem 0 0 0;
+  border-radius: 0.5rem;
+  display:flex;
+  justify-content: space-around;
+  flex-flow: column;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+
+  background-image: url(../images/amovilciudadazteca.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20rem ;
   border: 1px solid rgb(29, 68, 175);
-  text-align: left;
-  margin-left: 0% 0%;
-  font-size: 50px;
+  font-size: 16px;
+  color:white;
 }
 
 .cabecera figure img {
@@ -69,22 +80,49 @@ body {
   height: 20rem;
 }
 
+.main__search {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* .form__search {
+  width: 100%;
+} */
+
+.form__search input {
+  border: 1px solid white;
+  background-color: rgba(27, 95, 240, 0.541);
+  width: 100%;
+  border-radius: 50px;
+  width: 70%;
+  height: 2.5rem;
+  padding: 0 1rem;
+  outline: none;
+}
+
 .main-footer {
   color: white;
-  background-color: black;
   padding: 30px;
   margin: 1rem auto 0rem auto;
 }
 
 .main-footer__footer-nav {
   display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
   list-style: none;
 }
 
 .main-footer__footer-nav__item {
-  flex: auto;
+  margin: 0 1rem;
 }
 
 .main-footer__footer-nav__item a {
   text-decoration: none;
+}
+
+.main-footer__footer-nav__item a:hover {
+  text-decoration: none;
+  color:white;
 }

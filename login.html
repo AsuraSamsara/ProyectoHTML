@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/estiloLogin.css" />
     <link rel="stylesheet" href="./css/globalSettings.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/estilosIndex.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index,follow" />
-    <title>A-Movil Ciudad Azteca</title>
+    <title>Document</title>
   </head>
-
   <body>
     <nav class="nav">
       <div class="nav__img">
         <a href="./index.html">
-          <img src="./images/logoAMobil.png" alt="Logo Pagina A-Movil Cd Azteca" />
+          <img
+            src="./images/logoAMobil.png"
+            alt="Logo Pagina A-Movil Cd Azteca"
+          />
         </a>
       </div>
 
@@ -62,52 +62,51 @@
       </section>
     </header>
 
-    <main class="main-cuerpo">
-      <section>
-        <article class="carruselTelefonos">
-          <h2>Tienda de telefonos</h2>
-          <p>
-            Estos celulares son las ultimas novedades que hay en la tienda.
-            <br />
-            Para obtener mas detalles del equipo darle click.
-          </p>
+    <section class="login__container">
+      <p>Iniciar Sesion</p>
+      <form class="login__container--form">
+        <label for="correo">
+          <input
+            type="correo"
+            id="correo"
+            name="correo"
+            placeholder="Correo"
+            required
+          />
+        </label>
 
-          <ul class="carruselTelefonos__container">
-            <li class="carruselTelefonos__img">
-              <img src="./images/a02.png" alt="Imagen" />
-              <p class="carruselTelefonos__img-detail">Samsung A02</p>
-            </li>
-            <li class="carruselTelefonos__img">
-              <img src="./images/e6_Play.png" alt="Imagen" />
-              <p class="carruselTelefonos__img-detail">Motorola E6 Play</p>
-            </li>
-            <li class="carruselTelefonos__img">
-              <img src="./images/redmi9a.jpg" alt="Imagen" />
-              <p class="carruselTelefonos__img-detail">Redmi 9a</p>
-            </li>
-          </ul>
-        </article>
-
-        <!--
-
-        <article class="CarruselVideo">
+        <label for="contrasena">
+          <input
+            type="password"
+            id="contrasena"
+            name="contrasena"
+            placeholder="Contraseña"
+            required
+          />
           
-          <video controls preload="auto">
-            <source src="./video/adnVideo.mp4" />
-          </video>
-          
-        </article>
-        <article>
-          <form action="">
-            <label for="Nombre">
-              <span></span>
-              <input type="text" name="" id="Nombre" />
-            </label>
-          </form>
-        </article>
+        </label>
 
-      --></section>
-    </main>
+        <input type="button" value="Iniciar Sesion" />
+
+        <div class="login__container--password">
+          <label>
+            <input type="checkbox" id="remember" value="remember" />Recuerdame
+          </label>
+          <a href="">Olvide Mi contraseña</a>
+        </div>
+      </form>
+
+      <section class="login__container--social">
+        <div><img src="./images/iconGoogle.jpg" alt="IconGoogle">Iniciar Sesion con Google</div>
+        <div><img src="./images/iconTwitter.png" alt="IconTwitter">Iniciar Sesion con Twitter</div>
+
+      </section>
+
+      <section class="login__container--register">
+        <p>No tengo cuenta <a href="">Registrarme</a></p>
+
+      </section>
+    </section>
 
     <footer class="main-footer">
       <ul class="main-footer__footer-nav">
