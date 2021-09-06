@@ -1,8 +1,13 @@
-.login__container{
+.login{
     display: flex;
     flex-flow: column;
+    align-items: center;
     justify-content: center;
     margin: 2rem;
+}
+
+.login__container{
+    
     border: 1px solid blue;
     border-radius: 1rem;
     background: rgb(10,12,15,0.3);
@@ -26,3 +31,5 @@
     width: 1rem;
 
 }
+
+.
