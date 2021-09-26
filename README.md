@@ -1,9 +1,7 @@
-# Proyecto HTML
+# Primera Pagina WEB
 
-Estes proyecto es una prueba...
-xD
+ __Este proyecto fue el primer acercamiento a HTMl Y CSS.__
+ 
+ Hecho por [Javier E. Serrano](https://github.com/JavierSerranoAlvarado "Perfil GitHub").
 
-Bueno esta es una modificscion desde otro lado.
-Suerte.
 
-Bueno ahora es el swgun csmbio, pero desde otta cuenta
