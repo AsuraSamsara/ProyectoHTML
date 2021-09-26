@@ -1,36 +1,59 @@
-
 .main-cuerpo {
   font-size: 1.3rem;
   font-style: oblique;
   font-weight: bold;
 }
 
-#PrimeraFrase {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-}
 
 
-.carruselTelefonos__navigation {
+.carruselTelefonos__container {
   display: flex;
   box-sizing: border-box;
+  justify-content: center;
+  overflow:scroll;
+  padding:3rem;
+  position: relative;
+  
 }
 
-.carruselTelefonos__navigation li {
-  flex: auto;
-  display:block;
-  text-decoration: none;
+.carruselTelefonos__container li {
   list-style: none;
 }
 
-.carruselTelefonos__navigation figure img {
-  width: 10rem;
-  transition: width 1s;
+.carruselTelefonos__img{
+  transition: 450ms all;
+  transform-origin: center left;
+  overflow: hidden;
 }
 
-.carruselTelefonos__navigation figure img:hover {
-  width: 11rem;
+.carruselTelefonos__img img{
+  width: 10rem;
+  border-radius:2rem;
+  cursor: pointer;
 }
+
+.carruselTelefonos__img:hover ~ .carruselTelefonos__img {
+  transform:translate3d(3rem,0,0);
+  
+}
+
+.carruselTelefonos__container:hover .carruselTelefonos__img{
+  opacity: 0.3;
+}
+
+.carruselTelefonos__container:hover .carruselTelefonos__img:hover{
+  transform:scale(1.5);
+  opacity: 1;
+}
+
+/* .carruselTelefonos__img-detail{
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%);
+  transition: 450 ms opacity;
+  opacity: 0.5;
+  position:absolute;
+
+} */
+
 
 .CarruselVideo video {
   width: 20rem;
